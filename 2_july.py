@@ -14,8 +14,7 @@
 # If a number is divisible by both 3 and 5, print "FizzBuzz".
 # Otherwise, print the number itself.
 
-for i in range(1,17):
-    # print(i)
+for i in range(1,101):
     if(i%3 == 0 and i%5 ==0):
         print("FizzBuzz") 
     elif(i%3 == 0):
