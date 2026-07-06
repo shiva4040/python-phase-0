@@ -1,9 +1,3 @@
-# ===== ATM MENU =====
-# 1. Show Balance
-# 2. Deposit
-# 3. Withdraw
-# 4. Exit
-
 class BankAccount :
     def __init__(self,name,balance):
         self.name = name
