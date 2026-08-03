@@ -11,3 +11,10 @@ cost = 0
 for i in range(len(v1)):
     cost += v1[i] * v2[i]
 print(cost)
+# scaler Multiplication
+scaler = 2
+r =[]
+for i in range(len(v1)):
+    f = scaler * v1[i]
+    r.append(f)
+print(r)
