@@ -1,12 +1,13 @@
 import sympy as sp
-x,y = sp.symbols('x y')
-# f = x**2 + 3*x
-# print(sp.diff(f,x))
+def f(x):
+    # f= x**2 + 3*x
+    return 2*x + 3
+print("f(x)",f(2))
 # f = (3*x + 1)**5
 # print(sp.diff(f,x))
-f = x**2 * y + y**3
-print(sp.diff(f,x))
-print(sp.diff(f,y))
+# f = x**2 * y + y**3
+# print(sp.diff(f,x))
+# print(sp.diff(f,y))
 
 # Mini: Implement numerical gradient (finite difference) for f(x) = x^2 + 3x.
 def f(x):
