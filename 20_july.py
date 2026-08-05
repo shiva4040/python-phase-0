@@ -1,5 +1,6 @@
 import random
 import matplotlib.pyplot as plt
+import math
 #random variable
 x = random.randint(1,6)
 print(x)
@@ -19,6 +20,17 @@ print(x)
 #     roll[r] += 1
 # print(roll)
 
+# variance
+data =[2,34,5]
+mean = sum(data)/len(data)
+variance = sum((x - mean)**2 for x in data)/len(data)
+print(variance)
+
+# Standered veriance
+std = math.sqrt(variance)
+print(std)
+
+# Mini: Implement numerical gradient (finite difference) for f(x) = x^2 + 3x.
 roll = [random.randint(1,6) for _ in range(10000)]
 count ={}
 for i in roll:
